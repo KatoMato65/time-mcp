@@ -1,7 +1,7 @@
 {
   "name": "@katomato65/time-mcp",
-  "mcpName": "io.github.katomato65/time-mcp",
-  "version": "1.0.1",
+  "mcpName": "io.github.KatoMato65/time-mcp",
+  "version": "1.0.2",
   "description": "Simple MCP server that tells the time",
   "type": "module",
   "main": "index.js",
