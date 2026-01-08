@@ -1,13 +1,18 @@
 {
   "name": "@katomato65/time-mcp",
+  "version": "1.0.3",
   "mcpName": "io.github.KatoMato65/time-mcp",
-  "version": "1.0.2",
   "description": "Simple MCP server that tells the time",
   "type": "module",
   "main": "index.js",
   "bin": {
     "simple-time-mcp": "./index.js"
   },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "echo \"No build step required\""
   },
@@ -18,11 +23,10 @@
     "date",
     "server"
   ],
-  "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KatoMato65/time-mcp.git"
+    "url": "git+https://github.com/KatoMato65/time-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
