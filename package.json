@@ -1,0 +1,27 @@
+{
+  "name": "simple-time-mcp",
+  "version": "1.0.0",
+  "description": "Simple MCP server that tells the time",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "simple-time-mcp": "./index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "time",
+    "date",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobehub/mcp-hello-world"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
+
