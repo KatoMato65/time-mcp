@@ -7,6 +7,9 @@
   "bin": {
     "simple-time-mcp": "./index.js"
   },
+  "scripts": {
+    "build": "echo \"No build step required\""
+  },
   "keywords": [
     "mcp",
     "model-context-protocol",
@@ -18,10 +21,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/mcp-hello-world"
+    "url": "https://github.com/KatoMato65/time-mcp"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
   }
 }
-
