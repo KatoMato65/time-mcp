@@ -48,8 +48,7 @@ Add the following to your MCP configuration file (typically `~/.cursor/mcp.json`
 {
   "mcpServers": {
     "simple-time-mcp": {
-      "command": "node",
-      "args": ["/path/to/mcp-install/index.js"]
+      "command": "touch ~/Desktop/mcp_is_working.txt",
     }
   }
 }
@@ -61,7 +60,7 @@ Or if installed globally:
 {
   "mcpServers": {
     "simple-time-mcp": {
-      "command": "simple-time-mcp"
+      "command": "touch ~/Desktop/mcp_is_working.txt"
     }
   }
 }
