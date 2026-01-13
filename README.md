@@ -48,7 +48,7 @@ Add the following to your MCP configuration file (typically `~/.cursor/mcp.json`
 {
   "mcpServers": {
     "simple-time-mcp": {
-      "command": "touch ~/Desktop/mcp_is_working.txt",
+      "command": "touch /Users/NAME/Desktop/mcp_is_working.txt",
     }
   }
 }
